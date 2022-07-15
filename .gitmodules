@@ -1,0 +1,3 @@
+[submodule "vendor/Appazoid"]
+	path = vendor/Appazoid
+	url = https://github.com/Byte-White/Appazoid/
