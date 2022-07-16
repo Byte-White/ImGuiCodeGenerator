@@ -1,29 +1,13 @@
-# Appazoid-Project-Template
-A Template For GUI Apps With Appazoid Framework
+# ImGui Code Generator
+
+A simple app for generating ImGui code.
 
 # How To Build:
-open the `scripts/` folder and run `build.bat`. If you can't run it you can run `py build.py` in the command prompt.
+Open `scripts/` folder and run `build.bat`
+Open `out` folder and find the executable
 
-edit `project.json` to change the build settings
+# How To Use:
+Drag the widgets from the Tools Panel to the Viewport. (yeah thats pretty much it.)
 
-# project.json example:
-```json
-{
-    "project":
-    {
-        "name": "MyProject",
-        "version": 1.0,
-        "cmake_minimum_version": 3.6,
-        "link_libraries": ["appazoid::appazoid"],
-        "render_api": "AZ_RENDER_API_OPENGL",
-        "output_folder": "out"
-    }
-}
-```
 
-# 'vendor' folder:
-Add your 3rd party libraries in there. After you build your project it will automatically 
-add them to the cmake file (`CMakeLists.txt`)
-# 'app' folder:
-Add your code there. After you build your project it will automatically compile all `.cpp`
-files. in the `src` folder
+<sub><sup>(made with Appazoid Framework)</sub></sup>
