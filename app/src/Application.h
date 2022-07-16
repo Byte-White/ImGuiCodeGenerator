@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Appazoid/Appazoid.h"
-#include "Layers/MainLayer.h"
+#include "Layers/EditorLayer.h"
 
 class MyApplication :public az::Application
 {

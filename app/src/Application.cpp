@@ -4,7 +4,7 @@
 		az::WindowStyle style;
 		style.size = az::GetMonitorResolution() - 500;
 		//style.monitor = glfwGetPrimaryMonitor(); //Fullscreen
-		style.title = "Appazoid Application";
+		style.title = "ImGui Code Generator";
 		style.stylecolor = az::StyleColor::StyleColorDark;
 
 		//Enable Flags
@@ -17,9 +17,8 @@
 		//Menu Callback
 		
 		AddMenubarCallback(AZ_BIND_CALLBACK_FN(MenubarCallback));
-		AddLayer<MainLayer>("main_layer");
-		az::AppazoidSpecification::Print();
-		az::MemoryTracker::Print();
+		AddLayer<EditorLayer>("main_layer");
+		
 		Create(style);
 	}
 
